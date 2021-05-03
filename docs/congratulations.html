@@ -1,3 +1,86 @@
 <html>
-  <h1>Thank you for your submition!<h1/>
+  <head>
+    <title>Movie Like</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>&bull; Thank you for your submition! &bull;</h1>
+      <div class="underline"></div>
+    </div>
+  </body>
+ <style>
+   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+   
+   body {
+    background: #F2F3EB;
+   }
+   
+  h1 {
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+   
+  .underline {
+    border-bottom: solid 2px #474544;
+    margin: -0.512em auto;
+    width: 80px;
+  }
+
+  #container {
+    border: solid 3px #474544;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+  }
+   
+   @media screen and (max-width: 768px) {
+    #container {
+      margin: 20px auto;
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 26px;
+    }
+    
+    .underline {
+      width: 68px;
+    }
+    
+    #form_button {
+      padding: 15px 25px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    h1 {
+      font-size: 18px;
+    }
+    
+    .icon {
+      height: 35px;
+      width: 35px;
+    }
+    
+    .underline {
+      width: 53px;
+    }
+    
+    input[type='text'], [type='email'], select, textarea {
+      font-size: 0.875em;
+    }
+  }
+ </style>
 <html/>
